@@ -1071,43 +1071,111 @@ const HomePage = () => {
 
             </section>
 
-            {/* <footer className="bg-white dark:bg-gray-800">
+            {/*==========
+                FOOTER
+            =============*/}
+            <footer className="bg-white dark:bg-gray-800">
+
+                {/*===========
+                    CONTENT
+                ==============*/}
                 <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+
+                    {/*=========
+                        LINKS
+                    ============*/}
                     <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
-                        <div>
-                            <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
+
+                        {/*=================
+                            COMPANY LINKS
+                        ====================*/}
+                        <section>
+
+                            {/*=========
+                                TITLE
+                            ============*/}
+                            <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                                Company
+                            </h3>
+
+                            {/*=========
+                                LINKS
+                            ============*/}
                             <ul className="text-gray-500 dark:text-gray-400">
+
+                                {/* ABOUT */}
                                 <li className="mb-4">
                                     <a href="#" className=" hover:underline">About</a>
                                 </li>
+
+                                {/* CAREERS */}
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Careers</a>
                                 </li>
+
+                                {/* BRAND CENTER */}
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Brand Center</a>
                                 </li>
+
+                                {/* BLOG */}
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Blog</a>
                                 </li>
+
                             </ul>
-                        </div>
-                        <div>
-                            <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h3>
+
+                        </section>
+
+                        {/*=====================
+                            HELP CENTER LINKS
+                        ========================*/}
+                        <section>
+
+                            {/*=========
+                                TITLE
+                            ============*/}
+                            <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                                Help center
+                            </h3>
+
+                            {/*=========
+                                LINKS
+                            ============*/}
                             <ul className="text-gray-500 dark:text-gray-400">
+
+                                {/*==================
+                                    DISCORD SERVER
+                                =====================*/}
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Discord Server</a>
                                 </li>
+
+                                {/*===========
+                                    TWITTER
+                                ==============*/}
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Twitter</a>
                                 </li>
+
+                                {/*============
+                                    FACEBOOK
+                                ===============*/}
                                 <li className="mb-4">
-                                <a href="#" className="hover:underline">Facebook</a>
+                                    <a href="#" className="hover:underline">Facebook</a>
                                 </li>
+
+                                {/*==============
+                                    CONTACT US
+                                =================*/}
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Contact Us</a>
                                 </li>
+
                             </ul>
-                        </div>
+
+                        </section>
+
                         <div>
                             <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
                             <ul className="text-gray-500 dark:text-gray-400">
@@ -1157,7 +1225,15 @@ const HomePage = () => {
                             </ul>
                         </div>
                     </div>
+
+                    {/*========
+                        LINE
+                    ===========*/}
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"></hr>
+
+                    {/*=============
+                        COPYRIGHT
+                    ================*/}
                     <div className="text-center">
                         <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
                             <img src="./images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
@@ -1193,8 +1269,10 @@ const HomePage = () => {
                             </li>
                         </ul>
                     </div>
+
                 </div>
-            </footer> */}
+
+            </footer>
 
         </>
 
