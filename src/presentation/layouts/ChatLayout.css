@@ -1,43 +1,45 @@
-.chat-layout-styles {
-    background-color: #000000;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
+html {
+    @apply bg-white dark:bg-gray-900;
+}
+
+body {
+    @apply text-black dark:text-white;
 }
 
 h1 {
-    @apply text-3xl font-bold mb-4;
+    @apply text-3xl font-bold mb-4 dark:text-white;
 }
 
 p {
-    @apply mb-4;
+    @apply mb-4 dark:text-gray-200;
 }
 
 ul {
-    @apply list-disc list-inside;
+    @apply list-disc list-inside dark:text-gray-200;
 }
 
 strong {
-    @apply font-bold text-indigo-400 text-xl;
+    @apply font-bold text-indigo-400 text-xl dark:text-indigo-300;
 }
 
 em {
-    @apply italic text-pink-500;
+    @apply italic text-pink-500 dark:text-pink-300;
 }
 
 .btn-primary {
-    @apply bg-indigo-500 text-white font-bold py-2 px-4 rounded-xl hover:bg-indigo-700 transition-all duration-200 ease-in-out;
+    @apply bg-indigo-500 text-white font-bold py-2 px-4 rounded-xl hover:bg-indigo-700 transition-all duration-200 ease-in-out dark:bg-indigo-400 dark:hover:bg-indigo-600;
 }
 
 .btn-primary:disabled {
-    @apply bg-indigo-500 text-white font-bold py-2 px-4 rounded-xl opacity-50 cursor-not-allowed;
+    @apply bg-indigo-500 text-white font-bold py-2 px-4 rounded-xl opacity-50 cursor-not-allowed dark:bg-indigo-400;
 }
 
 .chat-container {
-    @apply flex flex-col flex-auto flex-shrink-0 rounded-2xl bg-white bg-opacity-5 h-full p-4;
+    @apply flex flex-col flex-auto flex-shrink-0 rounded-2xl bg-white bg-opacity-5 h-full p-4 dark:bg-gray-800;
 }
 
 .chat-messages {
-    @apply flex flex-col h-full overflow-x-auto mb-4 overflow-scroll;
+    @apply flex flex-col h-full overflow-x-auto mb-4 overflow-scroll dark:bg-gray-900;
 }
 
 /* Animations */
