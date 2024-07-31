@@ -1,10 +1,6 @@
-html {
-    @apply bg-white dark:bg-gray-900;
-}
-
-body {
-    @apply text-black dark:text-white;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 h1 {
     @apply text-3xl font-bold mb-4 dark:text-white;
