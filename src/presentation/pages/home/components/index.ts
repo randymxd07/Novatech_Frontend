@@ -1,6 +1,5 @@
 export * from './brands/Brands';
 export * from './footers/Footer';
-export * from './frequently-asked-questions/FrequentlyAskedQuestions';
 export * from './headers/Header';
 export * from './main-text-and-image/MainTextAndImage';
 export * from './message/Message';

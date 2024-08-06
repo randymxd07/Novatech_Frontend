@@ -1,4 +1,4 @@
-import { Brands, Footer, FrequentlyAskedQuestions, Header, MainTextAndImage, Message, Phrase, Pricing, Statistics, Tools } from './components';
+import { Brands, Footer, Header, MainTextAndImage, Message, Phrase, Pricing, Statistics, Tools } from './components';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -41,11 +41,6 @@ const HomePage = () => {
                 PRICING
             ==============*/}
             <Pricing />
-
-            {/*==============================
-                FREQUENTLY ASKED QUESTIONS
-            =================================*/}
-            <FrequentlyAskedQuestions />
             
             {/*===========
                 MESSAGE

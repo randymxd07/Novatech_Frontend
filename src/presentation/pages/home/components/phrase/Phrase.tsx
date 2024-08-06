@@ -26,7 +26,9 @@ export const Phrase = () => {
                         TEXT
                     ===========*/}
                     <blockquote>
-                        <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"Landwind is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+                        <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
+                            "NOVATECH es una muy buena plataforma, nuestro equipo utiliza miles de componentes y páginas prediseñadas, la elección perfecta para la transformacion digital de tu empresa".
+                        </p>
                     </blockquote>
 
                     {/*==========
@@ -37,14 +39,14 @@ export const Phrase = () => {
                         {/*=========
                             IMAGE 
                         ============*/}
-                        <img className="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture"></img>
+                        <img className="w-6 h-6 rounded-full" src="https://m.media-amazon.com/images/I/71DZX+tbF+L._AC_UF894,1000_QL80_.jpg" alt="profile picture"></img>
 
                         {/*=======================
                             NAME AND OCCUPATION
                         ==========================*/}
                         <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                            <div className="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</div>
-                            <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</div>
+                            <div className="pr-3 font-medium text-gray-900 dark:text-white">Randy Martínez</div>
+                            <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO de NOVATECH</div>
                         </div>
 
                     </figcaption>
