@@ -28,7 +28,7 @@ export const Header = () => {
 
     return (
 
-        <header className="fixed w-full">
+        <header className="fixed w-full z-50">
 
             {/*=======
                 NAV
