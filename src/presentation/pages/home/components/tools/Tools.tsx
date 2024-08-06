@@ -154,6 +154,82 @@ export const Tools = () => {
 
             </div>
 
+            <div className="mx-8 pb-8">
+
+                <h1 className="text-center text-3xl font-bold tracking-tight text-gray-900 dark:text-white mb-8">
+                    Productos que Ofrecemos
+                </h1>
+
+                <div className="grid grid-cols-4 gap-6">
+
+                    {/* SALES MANAGER */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/sales-manager.png" alt="Sales Manager" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Manejador de ventas
+                        </p>
+                    </div>
+
+                    {/* EMAIL MARKETING */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/email-marketing.png" alt="Marketing de Correo" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Marketing de Correo
+                        </p>
+                    </div>
+
+                    {/* CRM DASHBOARD */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/crm-dashboard.png" alt="Dashboard CRM" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Dashboard CRM
+                        </p>
+                    </div>
+
+                    {/* HR APP */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/hr-app.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Aplicación de Recursos Humanos
+                        </p>
+                    </div>
+                    
+                    {/* PODCAST APP */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/podcast-app.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Aplicación de Podcasts
+                        </p>
+                    </div>
+                    
+                    {/* ECOMMERCE APP */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/ecommerce-app.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Aplicación de eCommerce
+                        </p>
+                    </div>
+                    
+                    {/* EVENTS SCHEDULER */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/events-scheduler.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Programador de Eventos
+                        </p>
+                    </div>
+                    
+                    {/* PROJECT WORKPLACE */}
+                    <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
+                        <img src="/public/images/project-workspace.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
+                            Workplace de proyectos
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
 
     )
