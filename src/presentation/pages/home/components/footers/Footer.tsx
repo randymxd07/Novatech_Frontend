@@ -13,7 +13,7 @@ export const Footer = () => {
                 {/*=========
                     LINKS
                 ============*/}
-                <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+                <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
 
                     {/*=================
                         COMPANY LINKS
@@ -24,7 +24,7 @@ export const Footer = () => {
                             TITLE
                         ============*/}
                         <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                            Company
+                            Compañía
                         </h3>
 
                         {/*=========
@@ -34,22 +34,16 @@ export const Footer = () => {
 
                             {/* ABOUT */}
                             <li className="mb-4">
-                                <a href="#" className=" hover:underline">About</a>
-                            </li>
-
-                            {/* CAREERS */}
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Careers</a>
-                            </li>
-
-                            {/* BRAND CENTER */}
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Brand Center</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Acerca de
+                                </a>
                             </li>
 
                             {/* BLOG */}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Blog</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Blog
+                                </a>
                             </li>
 
                         </ul>
@@ -65,7 +59,7 @@ export const Footer = () => {
                             TITLE
                         ============*/}
                         <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                            Help center
+                            Centro de ayuda
                         </h3>
 
                         {/*=========
@@ -77,82 +71,147 @@ export const Footer = () => {
                                 DISCORD SERVER
                             =====================*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Discord Server</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Servidor de Discord
+                                </a>
                             </li>
 
                             {/*===========
                                 TWITTER
                             ==============*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Twitter</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Twitter
+                                </a>
                             </li>
 
                             {/*============
                                 FACEBOOK
                             ===============*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Facebook</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Facebook
+                                </a>
                             </li>
 
                             {/*==============
                                 CONTACT US
                             =================*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Contact Us</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Contact Us
+                                </a>
                             </li>
 
                         </ul>
 
                     </section>
 
-                    <div>
-                        <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
+                    {/*===============
+                        LEGAL LINKS
+                    ==================*/}
+                    <section>
+                        
+                        {/*=========
+                            TITLE
+                        ============*/}
+                        <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                            Legal
+                        </h3>
+
+                        {/*=========
+                            LINKS
+                        ============*/}
                         <ul className="text-gray-500 dark:text-gray-400">
+
+                            {/*==================
+                                PRIVACY POLICY 
+                            =====================*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Privacy Policy</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Política de privacidad
+                                </a>
                             </li>
+
+                            {/*===========
+                                LICENSE
+                            ==============*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Licensing</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Licencia
+                                </a>
                             </li>
+
+                            {/*=========
+                                TERMS
+                            ============*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Terms</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Términos
+                                </a>
                             </li>
+
                         </ul>
-                    </div>
-                    <div>
-                        <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
+
+                    </section>
+
+                    {/*==================
+                        DOWNLOAD LINKS
+                    =====================*/}
+                    <section>
+
+                        {/*=========
+                            TITLE
+                        ============*/}
+                        <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                            Descargar
+                        </h3>
+
+                        {/*=========
+                            LINKS
+                        ============*/}
                         <ul className="text-gray-500 dark:text-gray-400">
+
+                            {/*=======
+                                IOS
+                            ==========*/}
                             <li className="mb-4">
-                                <a href="#" className=" hover:underline">About</a>
+                                <a className="cursor-pointer hover:underline">
+                                    iOS
+                                </a>
                             </li>
+
+                            {/*===========
+                                ANDROID
+                            ==============*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Careers</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Android
+                                </a>
                             </li>
+
+                            {/*===========
+                                WINDOWS
+                            ==============*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Brand Center</a>
+                                <a className="cursor-pointer hover:underline">
+                                    Windows
+                                </a>
                             </li>
+
+                            {/*=========
+                                MACOS
+                            ============*/}
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Blog</a>
+                                <a className="cursor-pointer hover:underline">
+                                    MacOS
+                                </a>
                             </li>
+
                         </ul>
-                    </div>
-                    <div>
-                        <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h3>
-                        <ul className="text-gray-500 dark:text-gray-400">
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">iOS</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Android</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Windows</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">MacOS</a>
-                            </li>
-                        </ul>
-                    </div>
+
+                    </section>
+
                 </div>
 
                 {/*========
