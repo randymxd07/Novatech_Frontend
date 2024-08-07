@@ -43,10 +43,10 @@ export const Header = () => {
                     {/*========
                         LOGO
                     ===========*/}
-                    <a href="#" className="flex items-center">
-                        <img src="/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                    <a className="cursor-pointer flex items-center">
+                        <img src="/public/NOVATECH LOGO.png" className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
                         <span className="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white">
-                            Landwind
+                            NOVATECH
                         </span>
                     </a>
 

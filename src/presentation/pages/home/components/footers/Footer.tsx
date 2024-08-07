@@ -227,9 +227,9 @@ export const Footer = () => {
                     {/*========
                         LOGO
                     ===========*/}
-                    <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                        <img src="./images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                        Landwind
+                    <a className="cursor-pointer flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
+                        <img src="/public/NOVATECH LOGO.png" className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
+                        NOVATECH
                     </a>
 
                     {/*========
