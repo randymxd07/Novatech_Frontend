@@ -3,7 +3,7 @@ export const Phrase = () => {
 
     return (
 
-        <section className="bg-gray-50 dark:bg-gray-800">
+        <section className="bg-gray-50 dark:bg-gray-800 select-none">
 
             {/*===========
                 CONTENT

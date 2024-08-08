@@ -30,7 +30,7 @@ export const Header = () => {
 
     return (
 
-        <header className="fixed w-full z-50">
+        <header className="fixed w-full z-50 select-none">
 
             {/*=======
                 NAV
@@ -45,12 +45,12 @@ export const Header = () => {
                     {/*========
                         LOGO
                     ===========*/}
-                    <Link to='/' className="cursor-pointer flex items-center">
+                    <div className="flex items-center">
                         <img src={NOVATECHLOGO} className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
                         <span className="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white">
                             NOVATECH
                         </span>
-                    </Link>
+                    </div>
 
                     {/*====================================
                         LOGIN BUTTON AND COLLAPSE TOGGLE

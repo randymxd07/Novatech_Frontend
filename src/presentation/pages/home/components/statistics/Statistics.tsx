@@ -3,7 +3,7 @@ export const Statistics = () => {
 
     return (
 
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-white dark:bg-gray-900 select-none">
 
             {/*========
                 GRID

@@ -4,7 +4,7 @@ export const Footer = () => {
 
     return (
 
-        <footer className="bg-white dark:bg-gray-800">
+        <footer className="bg-white dark:bg-gray-800 select-none">
 
             {/*===========
                 CONTENT

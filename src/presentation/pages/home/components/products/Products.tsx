@@ -11,7 +11,7 @@ export const Products = () => {
 
     return (
 
-        <section id="products" className='bg-gray-50 dark:bg-gray-800'>
+        <section id="products" className="bg-gray-50 dark:bg-gray-800 select-none">
 
             <div className="mx-8 pb-8">
 
