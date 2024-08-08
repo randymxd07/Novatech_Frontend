@@ -10,7 +10,7 @@ export const GptMessage = ({ text }: Props) => {
         
         <div className="flex flex-row items-start">
 
-            <div className="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 flex-shrink-0">
+            <div className="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white flex-shrink-0">
                 N
             </div>
 

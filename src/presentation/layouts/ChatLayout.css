@@ -1,13 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 h1 {
     @apply text-3xl font-bold mb-4 dark:text-white;
 }
 
 p {
-    @apply mb-4 dark:text-gray-200;
+    @apply mb-4 text-gray-700 dark:text-gray-200;
 }
 
 ul {
@@ -31,11 +27,11 @@ em {
 }
 
 .chat-container {
-    @apply flex flex-col flex-auto flex-shrink-0 rounded-2xl bg-gray-900 bg-opacity-5 h-full p-4 dark:bg-gray-800;
+    @apply flex flex-col flex-auto flex-shrink-0 rounded-2xl bg-gray-900 bg-opacity-5 h-20 p-4 dark:bg-gray-800;
 }
 
 .chat-messages {
-    @apply flex flex-col h-full overflow-x-auto mb-4 overflow-scroll dark:bg-gray-900 dark:text-white;
+    @apply flex flex-col flex-auto h-full overflow-x-auto mb-4 overflow-scroll dark:bg-gray-900 dark:text-white;
 }
 
 /* Animations */
