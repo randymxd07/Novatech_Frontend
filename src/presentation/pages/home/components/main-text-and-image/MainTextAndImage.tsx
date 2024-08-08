@@ -4,7 +4,7 @@ export const MainTextAndImage = () => {
 
     return (
 
-        <main className="bg-white dark:bg-gray-900">
+        <main id="main" className="bg-white dark:bg-gray-900">
 
             {/*========
                 GRID 

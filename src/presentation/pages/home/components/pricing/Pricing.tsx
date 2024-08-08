@@ -3,7 +3,7 @@ export const Pricing = () => {
 
     return (
 
-        <section className="bg-white dark:bg-gray-900">
+        <section id="price" className="bg-white dark:bg-gray-900">
 
             {/*===========
                 CONTENT

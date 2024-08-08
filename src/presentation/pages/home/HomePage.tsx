@@ -1,4 +1,5 @@
 import { Brands, Footer, Header, MainTextAndImage, Message, Phrase, Pricing, Statistics, Tools } from './components';
+import { Products } from './components/products/Products';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -26,6 +27,11 @@ const HomePage = () => {
                 TOOLS SECTION
             ====================*/}
             <Tools />
+
+            {/*============
+                PRODUCTS
+            ===============*/}
+            <Products/>
 
             {/*==============
                 STATISTICS

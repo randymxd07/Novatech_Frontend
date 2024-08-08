@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import NOVATECHLOGO from '../../../../assets/images/NOVATECH-LOGO.png';
+import { Link } from "react-router-dom";
 
 export const Header = () => {
 
@@ -44,12 +45,12 @@ export const Header = () => {
                     {/*========
                         LOGO
                     ===========*/}
-                    <a className="cursor-pointer flex items-center">
+                    <Link to='/' className="cursor-pointer flex items-center">
                         <img src={NOVATECHLOGO} className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
                         <span className="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white">
                             NOVATECH
                         </span>
-                    </a>
+                    </Link>
 
                     {/*====================================
                         LOGIN BUTTON AND COLLAPSE TOGGLE
@@ -128,37 +129,30 @@ export const Header = () => {
 
                             {/* HOME */}
                             <li>
-                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-white bg-blue-700 rounded lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white" aria-current="page">
+                                <a href="#main" className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                                     Inicio
                                 </a>
                             </li>
 
-                            {/* COMPANY */}
+                            {/* PRODUCTS */}
                             <li>
-                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
-                                    Compañía
-                                </a>
-                            </li>
-
-                            {/* CONTACT */}
-                            <li>
-                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
-                                    Contactar
+                                <a href="#products" className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                                    Productos
                                 </a>
                             </li>
 
                             {/* PRICING */}
                             <li>
-                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                                <a href="#price" className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                                     Precios
                                 </a>
                             </li>
 
                             {/* ASSISTANT */}
                             <li>
-                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                                <Link to="/chat" className="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
                                     Asistente AI
-                                </a>
+                                </Link>
                             </li>
 
                         </ul>

@@ -100,7 +100,7 @@ export const Footer = () => {
                             =================*/}
                             <li className="mb-4">
                                 <a className="cursor-pointer hover:underline">
-                                    Contact Us
+                                    Contactanos
                                 </a>
                             </li>
 
