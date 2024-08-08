@@ -19,7 +19,7 @@ export const Products = () => {
                     Productos que Ofrecemos
                 </h1>
 
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
                     {/* SALES MANAGER */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
