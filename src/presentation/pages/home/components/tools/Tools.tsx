@@ -1,3 +1,11 @@
+import SALESMANAGERAPP from '../../../../assets/images/sales-manager.png';
+import EMAILMARKETINGRAPP from '../../../../assets/images/email-marketing.png';
+import CRMDASHBOARDAPP from '../../../../assets/images/crm-dashboard.png';
+import HRAPP from '../../../../assets/images/hr-app.png';
+import PODCASTAPP from '../../../../assets/images/podcast-app.png';
+import ECOMMERCEAPP from '../../../../assets/images/ecommerce-app.png';
+import EVENTSCHEDULERAPP from '../../../../assets/images/events-scheduler.png';
+import PROJECTWORKSPACEAPP from '../../../../assets/images/project-workspace.png';
 
 export const Tools = () => {
 
@@ -164,7 +172,7 @@ export const Tools = () => {
 
                     {/* SALES MANAGER */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/sales-manager.png" alt="Sales Manager" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={SALESMANAGERAPP} alt="Sales Manager" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Manejador de ventas
                         </p>
@@ -172,7 +180,7 @@ export const Tools = () => {
 
                     {/* EMAIL MARKETING */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/email-marketing.png" alt="Marketing de Correo" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={EMAILMARKETINGRAPP} alt="Marketing de Correo" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Marketing de Correo
                         </p>
@@ -180,7 +188,7 @@ export const Tools = () => {
 
                     {/* CRM DASHBOARD */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/crm-dashboard.png" alt="Dashboard CRM" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={CRMDASHBOARDAPP} alt="Dashboard CRM" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Dashboard CRM
                         </p>
@@ -188,7 +196,7 @@ export const Tools = () => {
 
                     {/* HR APP */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/hr-app.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={HRAPP} alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Aplicación de Recursos Humanos
                         </p>
@@ -196,7 +204,7 @@ export const Tools = () => {
                     
                     {/* PODCAST APP */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/podcast-app.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={PODCASTAPP} alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Aplicación de Podcasts
                         </p>
@@ -204,7 +212,7 @@ export const Tools = () => {
                     
                     {/* ECOMMERCE APP */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/ecommerce-app.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={ECOMMERCEAPP} alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Aplicación de eCommerce
                         </p>
@@ -212,7 +220,7 @@ export const Tools = () => {
                     
                     {/* EVENTS SCHEDULER */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/events-scheduler.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={EVENTSCHEDULERAPP} alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Programador de Eventos
                         </p>
@@ -220,7 +228,7 @@ export const Tools = () => {
                     
                     {/* PROJECT WORKPLACE */}
                     <div className="cursor-pointer mb-2 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md min-h-[300px] transform transition duration-300 hover:shadow-xl hover:-translate-y-2">
-                        <img src="/public/images/project-workspace.png" alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
+                        <img src={PROJECTWORKSPACEAPP} alt="Aplicación de Recursos Humanos" className="w-full h-64 object-cover rounded-t-lg" />
                         <p className="mt-7 text-center text-2xl font-bold text-gray-900 dark:text-gray-200">
                             Workplace de proyectos
                         </p>

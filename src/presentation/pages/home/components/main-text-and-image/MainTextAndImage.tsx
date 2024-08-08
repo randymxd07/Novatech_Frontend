@@ -1,3 +1,4 @@
+import ILUSTRACION1 from '../../../../assets/images/ilustration-1.png';
 
 export const MainTextAndImage = () => {
 
@@ -56,7 +57,7 @@ export const MainTextAndImage = () => {
                     IMAGE 
                 ============*/}
                 <section className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img src="/public/images/ilustration-1.png" alt="Ilustration 1" />
+                    <img src={ILUSTRACION1} alt="Ilustration 1" />
                 </section>
 
             </article>

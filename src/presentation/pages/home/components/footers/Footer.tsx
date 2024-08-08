@@ -1,3 +1,4 @@
+import NOVATECHLOGO from '../../../../assets/images/NOVATECH-LOGO.png';
 
 export const Footer = () => {
 
@@ -228,7 +229,7 @@ export const Footer = () => {
                         LOGO
                     ===========*/}
                     <a className="cursor-pointer flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                        <img src="/public/NOVATECH LOGO.png" className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
+                        <img src={NOVATECHLOGO} className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
                         NOVATECH
                     </a>
 
