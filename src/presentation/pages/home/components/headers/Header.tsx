@@ -44,7 +44,7 @@ export const Header = () => {
                         LOGO
                     ===========*/}
                     <a className="cursor-pointer flex items-center">
-                        <img src="/public/NOVATECH LOGO.png" className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
+                        <img src="/src/presentation/assets/images/NOVATECH-LOGO.png" className="h-12 mr-1 sm:h-10" alt="NOVATECH Logo" />
                         <span className="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white">
                             NOVATECH
                         </span>
