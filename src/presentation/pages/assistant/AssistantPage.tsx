@@ -55,6 +55,7 @@ export const AssistantPage = () => {
   }
 
   return (
+
     <div className="chat-container">
 
       {/* CHAT MESSAGES */}
@@ -63,7 +64,7 @@ export const AssistantPage = () => {
         <div className="grid grid-cols-12 gap-y-2">
           
           {/* WELCOME */}
-          <GptMessage text="Saludos, soy Sam, en qué puedo ayudarte?" />
+          <GptMessage text="Saludos, soy Nova, en qué puedo ayudarte?" />
 
           {/* MY MESSAGES */}
           {
@@ -95,5 +96,6 @@ export const AssistantPage = () => {
       />
 
     </div>
+    
   )
 }
