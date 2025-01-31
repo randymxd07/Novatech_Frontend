@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import NOVATECHLOGO from '../../../../assets/images/NOVATECH-LOGO.png';
-import { Link } from "react-router-dom";
 
 export const Header = () => {
 
