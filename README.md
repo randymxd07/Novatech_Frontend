@@ -15,15 +15,6 @@ git clone https://github.com/randymxd06/Novatech_Frontend.git
 ```bash
 yarn install
 ```
-
-### 3. Copy the file ```.env.template``` and rename it to ```.env``` then put the values ​​of the variables such as the API URL and the wizard URL
-
-```env
-VITE_NESTGPT_API=http://localhost:3000/gpt
-
-VITE_ASSISTANT_API=http://localhost:3000/sam-assistant
-```
-
 ### 4. Run the project
 
 ```bash
